@@ -7,9 +7,8 @@ body {
 header {
     display: flex; /* Diseño con Flexbox */
     justify-content: flex-start; /* Espacio entre el título y el selector de temas */
-    align-items: center; /* Alinea elementos verticalmente */
+    text-align: right;
     background-color: #85CEF0; /* Color por defecto */
-    color: white; /* Texto blanco */
-    padding: 15px; /* Espacio interno */
-    position: sticky; /* Siempre visible arriba al hacer scroll */
+    padding: 30px; /* Espacio interno */
+    
 }

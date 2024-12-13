@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente sencilla y clara */
+    margin: 0; /* Sin espacio alrededor */
+    padding: 0; /* Sin espacio interior */
+    background-color: #E2E5E7;
+}
+header {
+    display: flex; /* Diseño con Flexbox */
+    justify-content: flex-start; /* Espacio entre el título y el selector de temas */
+    align-items: center; /* Alinea elementos verticalmente */
+    background-color: #85CEF0; /* Color por defecto */
+    color: white; /* Texto blanco */
+    padding: 15px; /* Espacio interno */
+    position: sticky; /* Siempre visible arriba al hacer scroll */
+}

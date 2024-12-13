@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carmen Luciana Munayco Velasquez</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button class="theme-button" onclick="addNote()">Mostrar Chat</button>
+        <button class="theme-button" onclick="clearAllNotes()">Ocultar Chat</button>
+    </header>
+    <div class="container">
+        <!-- Contenedor principal que agrupa todos los elementos interactivos. -->
+        
+        <!-- Área de texto donde el usuario puede escribir notas. -->
+        <textarea id="note-input" placeholder="Escribe tu nota aquí..."></textarea>
+        
+        <!-- Botón que añade la nota escrita al contenedor de notas. -->
+        <button class="theme-button" onclick="addNote()">Añadir nota</button>
+        
+        <!-- Botón que borra todas las notas con un solo clic. -->
+        <button class="theme-button" onclick="clearAllNotes()">Borrar todas las notas</button>
+        
+        <div id="notes-container">
+            <!-- Este contenedor almacena todas las notas creadas por el usuario.
+                 Si no hay notas, se muestra el mensaje predeterminado. -->
+            <p id="no-notes" style="font-style: italic; color: #555;">
+                Todavía no hay notas
+            </p>
+        </div>
+    </div>
+</body>
+</html>

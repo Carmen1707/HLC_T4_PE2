@@ -10,9 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <button class="theme-button" onclick="addNote()">Mostrar Chat</button>
-        <button class="theme-button" onclick="clearAllNotes()">Ocultar Chat</button>
-    </header>
+    <div class="container">
+        <div class="menu">
+          <button id="btn1">Mostrar Chat</button>
+          <button id="btn2">Ocultar Chat</button>
+        </div>
+    
+    <div class="containerpadre">
+        <div class="box2">
+        <div class="box1">
+        <textarea id="note-input" placeholder="Escribe tu mensaje"></textarea>
+        <button class="theme-button" onclick="addNote()">Enviar</button>
+        </div>
+    </div>
+        <script src="script.js"></script>
 </body>
 </html>

@@ -1,14 +1,60 @@
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Fuente sencilla y clara */
-    margin: 0; /* Sin espacio alrededor */
-    padding: 0; /* Sin espacio interior */
+    font-family: "Nunito" ,serif;
+    margin: 0;
+    padding: 0; 
     background-color: #E2E5E7;
 }
-header {
-    display: flex; /* Diseño con Flexbox */
-    justify-content: flex-start; /* Espacio entre el título y el selector de temas */
-    text-align: right;
-    background-color: #85CEF0; /* Color por defecto */
-    padding: 30px; /* Espacio interno */
-    
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu {
+    background-color: #85CEF0;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+.menu button {
+    width: 50%;
+    background-color: #F8F8FF;
+    text-align: start;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 5% 40%;
+    margin: 5%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+span {
+    background-color: #d3f8f7;
+}
+
+.menu button:hover {
+    background-color: #EAFFD2;
+}
+
+.box2 
+{
+    background-color: #F8F8FF;
+    padding: 180px;
+    margin: 90px;
+    width: 15%;
+    text-align: center;
+    color: black;
+    box-shadow:  0 4px 8px 5px rgba(0, 0, 0, 0.265);
+    font-size: 20px;
+}
+
+.box2:active 
+{
+    box-shadow: none;
+}
+
+.box2:hover 
+{
+    cursor: pointer;
 }

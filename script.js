@@ -1,3 +1,11 @@
+// Función que añade una nueva nota
+function addNote() {
+    const noteInput = document.getElementById("note-input"); // Selecciona el área de texto
+    const notesContainer = document.getElementById("notes-container"); // Contenedor de nota
+     // Añade la nota al contenedor
+     notesContainer.appendChild(note);
+}
+
 function getRandomBotMessage () {
     const messages = [
         "Creo que no.",
